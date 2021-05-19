@@ -2,3 +2,4 @@
 2.  reference model 通常是用其他语言写的硬件模型，目前对于model 的学习不深，尚未添加相关模块。
 3.  组件中包含apb总线的monitor和i2c SCL SDA总线monitor，可以检测总线活动，对于i2c总线，可以探测到起始和停止信号，传输字节，ackbit。
 4.  sequence主要是reg write 进行寄存器配置。
+5.  source code参考uvm实战，芯片验证漫游指南，以及其他UVM验证IP中的写法。
