@@ -1,0 +1,134 @@
+Master_data_buffer 'h0 8
+Data 7:0 RW 
+
+Slave_data_buffer 'h2 8
+Data 7:0 RW
+
+Lo_Master_Address_Register 'h4 8
+7_mode 7:1 RW
+10_mode_lo 0 RW
+
+Hi_Master_Address_Register 'h5 8
+fixed 7:3 RW
+10_mode_9_8 2:1 RW
+careless 0 RW
+
+Control_Register 'h6 8
+7_B 7 RW
+6_B 6 RW
+5_B 5 RW
+4_B 4 RW
+3_B 3 RW
+2_B 2 RW
+1_B 1 RW
+0_B 0 RW
+
+Mode_Control_Register 'h7 8
+7_B 7 RW
+6_B 6 RW
+5_B 5 RW
+4_B 4 RW
+3_B 3 RW
+2_B 2 RW
+1_B 1 RW
+0_B 0 RW
+
+Status_Register 'h8 8
+7_B 7 R
+6_B 6 R
+5_B 5 R
+4_B 4 R
+3_B 3 RW
+2_B 2 R
+1_B 1 RW
+0_B 0 R
+
+Extended_Status_Register 'h9 8
+7_B 7 RW
+6_B 6 R
+5_B 5 R
+4_B 4 R
+3_B 3 RW
+2_B 2 RW
+1_B 1 RW
+0_B 0 RW
+
+Lo_Slave_Address_Register 'ha 8
+7_B 7 RW
+6_B 6 RW
+5_B 5 RW
+4_B 4 RW
+3_B 3 RW
+2_B 2 RW
+1_B 1 RW
+0_B 0 RW
+
+Hi_Slave_Address_Register 'hb 8
+7_B 7 RW
+6_B 6 RW
+5_B 5 RW
+4_B 4 RW
+3_B 3 RW
+2_B 2 RW
+1_B 1 RW
+0_B 0 RW
+
+Clock_Divide_Register 'hc 8
+7_B 7 RW
+6_B 6 RW
+5_B 5 RW
+4_B 4 RW
+3_B 3 RW
+2_B 2 RW
+1_B 1 RW
+0_B 0 RW
+
+Interrupt_Enable_Register 'hd 8
+7_B 7 RW
+6_B 6 RW
+5_B 5 RW
+4_B 4 RW
+3_B 3 RW
+2_B 2 RW
+1_B 1 RW
+0_B 0 RW
+
+Transfer_Count_Register 'he 8
+7_B 7 RW
+6_B 6 RW
+5_B 5 RW
+4_B 4 RW
+3_B 3 RW
+2_B 2 RW
+1_B 1 RW
+0_B 0 RW
+
+Extended_Control_and_Slave_Status_Register 'hf 8
+7_B 7 RW
+6_B 6 RW
+5_B 5 RW
+4_B 4 RW
+3_B 3 R
+2_B 2 R
+1_B 1 RW
+0_B 0 RW
+
+Direct_Control_Register 'h10 8
+7_B 7 RW
+6_B 6 RW
+5_B 5 RW
+4_B 4 RW
+3_B 3 RW
+2_B 2 RW
+1_B 1 RW
+0_B 0 RW
+
+Interrupt_Register 'h11 8
+7_B 7 R
+6_B 6 R
+5_B 5 R
+4_B 4 R
+3_B 3 R
+2_B 2 R
+1_B 1 R
+0_B 0 R
